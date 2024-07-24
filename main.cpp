@@ -1,9 +1,17 @@
 #include <iostream>
-
 using namespace std;
+
+class TestClass{
+    public:
+        void say() {
+            cout << "from a class" << endl;
+        }
+};
+
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    TestClass obj;
+    obj.say();
     return 0;
 }
