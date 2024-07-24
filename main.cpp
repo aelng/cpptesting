@@ -2,16 +2,24 @@
 using namespace std;
 
 class TestClass{
+//gettrs and setters
     public:
-        void say() {
-            cout << "from a class" << endl;
+        void setName(string x) {
+            name = x;
         }
+        string getName() {
+            return name;
+        }
+    private:
+        string name;
+        int jo;
 };
 
 
 int main()
 {
     TestClass obj;
-    obj.say();
+    obj.setName("jose");
+    cout << obj.getName();
     return 0;
 }
