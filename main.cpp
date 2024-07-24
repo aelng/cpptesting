@@ -1,25 +1,11 @@
 #include <iostream>
-using namespace std;
+#include "Create.h"
 
-class TestClass{
-//gettrs and setters
-    public:
-        void setName(string x) {
-            name = x;
-        }
-        string getName() {
-            return name;
-        }
-    private:
-        string name;
-        int jo;
-};
+using namespace std;
 
 
 int main()
 {
-    TestClass obj;
-    obj.setName("jose");
-    cout << obj.getName();
+    Create c;
     return 0;
 }
