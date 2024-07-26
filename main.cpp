@@ -1,11 +1,12 @@
 #include <iostream>
-#include "Create.h"
 
 using namespace std;
 
 
 int main()
 {
-    Create c;
-    return 0;
+    //Pointer test
+    int p = 5;
+    int *s = &p;
+    cout << s << endl;
 }
