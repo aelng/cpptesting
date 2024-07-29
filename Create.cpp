@@ -5,9 +5,9 @@ using namespace std;
 
 Create::Create()
 {
-    cout << "created a class" << endl;
+    cout << "created an object" << endl;
 }
 
-void Create::printStuff() {
-    cout << "a testing print" << endl;
+Create::~Create(){
+    cout << "destroyed an object" << endl;
 }

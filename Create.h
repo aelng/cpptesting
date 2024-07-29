@@ -6,7 +6,7 @@ class Create
 {
     public:
         Create();
-        void printStuff();
+        ~Create();
 };
 
 #endif
